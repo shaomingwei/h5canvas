@@ -20,9 +20,11 @@ h5canvas
 	 [链接](https://www.jianshu.com/p/6fe06667b748)
 	 
 3. canvas在手机上保存的图片失真，导致原因是宽高设置问题，属性的宽高跟style里设置的宽高是不一样的，如下：
+4. 
 `<canvas class="mycanvas" id="main" width="750" height="1148" style="width: 375px;height: 574px;"></canvas>`
+
 width代表画布的默认宽度，style代表画布渲染出来的宽度，之后画布里面的内容设置都按照大图的位置尺寸来做，具体原理看如下链接
 
 [canvas的宽高设置问题](https://www.cnblogs.com/regina1123/p/6234719.html)
 
-由于这个活动是一时兴起，也没经过过多的测试，有BUG请无视
+由于这个活动是一时兴起，也没经过过多的测试，有BUG请无视,不改
