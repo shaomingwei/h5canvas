@@ -1,0 +1,267 @@
+.main-form {
+  background: url('../images/bg.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+}
+.main-form img {
+  pointer-events: none;
+}
+.main-form .wrapper {
+  background: #fff;
+  width: 85%;
+  margin: 10% auto 0;
+  color: #61472b;
+  padding: 3% 3% 40px 3%;
+}
+.main-form .wrapper .title1 {
+  font-size: 20px;
+}
+.main-form .wrapper .title2 {
+  font-size: 14px;
+  border-top: 2px solid #61472b;
+  border-bottom: 1px solid #61472b;
+  padding: 4px 0;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+.main-form .wrapper .title3 {
+  font-size: 12px;
+  margin-bottom: 42px;
+}
+.main-form .wrapper .title4 {
+  width: 46%;
+}
+.main-form .wrapper .main {
+  margin-top: 4px;
+  border: 1px solid #61472b;
+  position: relative;
+}
+.main-form .wrapper .main .img1 {
+  background: #f2f2f2;
+  padding: 3px 6px;
+}
+.main-form .wrapper .main .img1 img {
+  width: 76px;
+}
+.main-form .wrapper .main .main-text {
+  height: 200px;
+  width: 90%;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  padding: 5% 0;
+  font-size: 16px;
+  color: #61472b;
+  resize: none;
+}
+.main-form .wrapper .main .num {
+  display: none;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #999;
+  font-size: 12px;
+}
+.main-form .ipt-wrapper {
+  width: 88%;
+  margin-left: 6%;
+  position: absolute;
+  bottom: 6%;
+}
+.main-form .ipt-wrapper .change {
+  float: left;
+  width: 45%;
+}
+.main-form .ipt-wrapper .change:active {
+  -moz-transform: scale(0.9, 0.9);
+  -webkit-transform: scale(0.9, 0.9);
+  -o-transform: scale(0.9, 0.9);
+}
+.main-form .ipt-wrapper .thisone {
+  float: right;
+  width: 45%;
+}
+.main-form .ipt-wrapper .thisone:active {
+  -moz-transform: scale(0.9, 0.9);
+  -webkit-transform: scale(0.9, 0.9);
+  -o-transform: scale(0.9, 0.9);
+}
+.generate {
+  background: url('../images/bg.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  display: none;
+}
+.generate .start-img {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -375px;
+  margin-top: -574px;
+  opacity: 0;
+  z-index: 100000;
+  width: 750px;
+  height: 1148px;
+}
+.generate .mycanvas {
+  display: none;
+}
+.generate .tips {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #61472b;
+}
+.generate .wrapper {
+  background: #fff;
+  width: 85%;
+  margin: 30px auto 0;
+  color: #61472b;
+  padding: 3% 3% 40px 3%;
+  position: relative;
+}
+.generate .wrapper .title1 {
+  font-size: 20px;
+}
+.generate .wrapper .title2 {
+  font-size: 14px;
+  border-top: 2px solid #61472b;
+  border-bottom: 1px solid #61472b;
+  padding: 4px 0;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+.generate .wrapper .title3 {
+  font-size: 12px;
+  margin-bottom: 42px;
+}
+.generate .wrapper .title4 {
+  width: 46%;
+}
+.generate .wrapper .main {
+  margin-top: 4px;
+  border: 1px solid #61472b;
+  position: relative;
+  height: 100px;
+}
+.generate .wrapper .main .img1 {
+  background: #f2f2f2;
+  padding: 3px 6px;
+}
+.generate .wrapper .main .img1 img {
+  width: 76px;
+}
+.generate .wrapper .fabiao {
+  background: #305e67;
+  font-size: 12px;
+  color: #fff;
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 5px;
+}
+.generate .wrapper .title5 {
+  font-size: 18px;
+  color: #61472b;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #61472b;
+}
+.generate .wrapper .message {
+  margin-top: 12px;
+  display: flex;
+}
+.generate .wrapper .message .touxiang {
+  margin-right: 15px;
+  width: 60px;
+}
+.generate .wrapper .message .touxiang img {
+  width: 60px;
+  border-radius: 50%;
+}
+.generate .wrapper .message .right-wrapper {
+  flex: 1;
+}
+.generate .wrapper .message .right-wrapper .name {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.generate .wrapper .message .right-wrapper .name #name {
+  display: inline-block;
+  color: #305e67;
+  margin-right: 15px;
+}
+.generate .wrapper .message .right-wrapper .name span {
+  color: #61472b;
+}
+.generate .wrapper .message .right-wrapper .neirong {
+  line-height: 22px;
+  letter-spacing: 1px;
+  height: 140px;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+.generate .wrapper .message .time {
+  position: absolute;
+  left: 86px;
+  font-size: 14px;
+  color: #61472b;
+  bottom: 25px;
+}
+.generate .wrapper .message .time #mydate {
+  white-space: pre;
+}
+.tishi {
+  width: 40%;
+  height: 36px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  margin-left: 30%;
+  top: 50%;
+  margin-top: -10px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 6px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: none;
+}
+.get-bottom {
+  position: fixed;
+  bottom: 0;
+}
+.get-bottom img {
+  pointer-events: none;
+}
+.get-bottom .jiantou2 {
+  position: absolute;
+  width: 6%;
+  margin-left: 47%;
+  z-index: 1000;
+  bottom: 16px;
+}
+.get-bottom .jiantou2 img {
+  position: absolute;
+}
+@media (max-height: 400px) {
+  .send {
+    display: none;
+  }
+  .ipt-wrapper {
+    display: none;
+  }
+  .autoBd {
+    min-height: 400px;
+  }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>viagra</title>
+
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    < ![endif]-->
+  </head>
+
+  <body onload="hechen()">
+    <!--表单-->
+    <div class="container main-form" id="main-form">
+      <div class="wrapper">
+        <p class="title1">留言板</p>
+        <p class="title2">主人寄语</p>
+        <p class="title3">欢迎光临我的空间</p>
+        <div class="title4"><img class="center-block img-responsive" src="images/liwu.png" alt=""></div>
+        <div class="main">
+          <div class="img1">
+            <img src="images/biaoqing.png" alt="">
+          </div>
+          <textarea onblur="hechen();" name="username" class="main-text" id="mainText" readonly>这里还是HTML，点击生成图片</textarea>
+        </div>
+      </div>
+      <div class="ipt-wrapper clearfix">
+        <div class="thisone" onclick="thisone()">
+          <img class="img-responsive center-block" src="images/fabiao.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!--表单-->
+
+    <!--canvas输出-->
+    <div class="container generate hide" id="generate">
+      <!--生成的图片，透明-->
+      <div class="start-img">
+        <img id="starImg" src="images/baocun.jpg" />
+      </div>
+      <!--画布-->
+      <canvas class="mycanvas" id="main" width="750" height="1148" style="width: 375px;height: 574px;"></canvas>
+      <!--主要内容-->
+      <div class="wrapper">
+        <p class="title1">留言板</p>
+        <p class="title2">主人寄语</p>
+        <p class="title3">欢迎光临我的空间</p>
+        <div class="title4"><img class="center-block img-responsive" src="images/liwu.png" alt=""></div>
+        <div class="main">
+          <div class="img1">
+            <img src="images/biaoqing.png" alt="">
+          </div>
+        </div>
+        <div class="fabiao">发表</div>
+        <p class="title5">留言</p>
+        <div class="message">
+          <div class="right-wrapper">
+            <p class="neirong"></p>
+          </div>
+          <div class="time"><span id="mydate"></span></div>
+        </div>
+      </div>
+      <div class="tips">
+        <p>长按可以保存哦</p>
+      </div>
+    </div>
+
+    <!--canvas输出-->
+    <script src="js/jquery-2.2.2.min.js"></script>
+    <script src="js/all.js"></script>
+  </body>
+</html>
