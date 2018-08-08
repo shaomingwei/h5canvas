@@ -3,10 +3,6 @@ h5canvas
 ----
 使用场景：在手机端通过canvas生成图片并保存
 
-[原始项目预览](https://loveviagra.xin/H5/index.html)
-
-由于是公司项目，所以我给出的代码已经删除了大部分图片以及代码，只留下canvas的部分
-
 [github上代码的效果预览](https://loveviagra.xin/H5canvas/index.html)
 
 ## 主要遇到的问题
